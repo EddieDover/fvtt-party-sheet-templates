@@ -1,0 +1,136 @@
+alienrpg:
+  - file: alienrpg.json
+    version: 1.1.0
+    author: Michael Card (EmoCthulhu)
+
+blade-runner:
+  - file: blade-runner-basic.json
+    version: 1.1.0
+    author: Michael Card (EmoCthulhu)
+  - file: blade-runner-expanded.json
+    version: 1.1.0
+    author: Michael Card (EmoCthulhu)
+
+castles-and-crusades:
+  - file: cac_phildo.json
+    version: 1.1.0
+    author: PhildoBaggins
+
+cyberpunk-red-core:
+  - file: cyberpunk-red-v1.json
+    version: 1.1.0
+    author: Michael Card (EmoCthulhu)
+  - file: cyberpunk-red-v2.json
+    version: 1.1.0
+    author: Michael Card (EmoCthulhu)
+
+dnd5e:
+  - file: dnd5e_modified.json
+    version: 1.1.0
+    author: EmoCthulhu (edits)
+  - file: dnd5e_template.json
+    version: 1.1.0
+    author: Your Name Here
+  - file: dnd5e_showcase.json
+    version: 1.1.0
+    author: EddieDover
+
+dragonbane:
+  - file: dragonbane-name.json
+    version: 1.1.0
+    author: Michael Card (EmoCthulhu)
+
+fallout:
+  - file: fallout-trimmed-move.json
+    version: 1.1.0
+    author: Michael Card (EmoCthulhu)
+  - file: fallout-move.json
+    version: 1.1.0
+    author: Michael Card (EmoCthulhu)
+  - file: fallout-v2.json
+    version: 1.1.0
+    author: Michael Card (EmoCthulhu)
+
+pf1:
+  - file: pf1-condensed.json
+    version: 1.1.0
+    author: Rexinath
+  - file: pf1-template.json
+    version: 1.1.0
+    author: LeCuay
+
+pf2e:
+  - file: valentine-streamer.json
+    version: 1.1.0
+    author: Crow Valentine
+
+sfrpg:
+  - file: starfinder.json
+    version: 1.1.0
+    author: Michael Card (EmoCthulhu)
+  - file: starfinder-statuses.json
+    version: 1.1.0
+    author: Michael Card (EmoCthulhu)
+
+sta:
+  - file: sta-v1.json
+    version: 1.1.0
+    author: Michael Card (Emo Cthulhu)
+  - file: sta-ship-v2.json
+    version: 1.1.0
+    author: Michael Card (EmoCthulhu)
+  - file: sta-v2.json
+    version: 1.1.0
+    author: Michael Card (EmoCthulhu)
+
+swade:
+  - file: swade.json
+    version: 1.1.0
+    author: Mestre Digital
+
+twdu:
+  - file: twdu-anchors.json
+    version: 1.1.0
+    author: Michael Card (EmoCthulhu)
+  - file: twdu-two-rows.json
+    version: 1.1.0
+    author: Michael Card (EmoCthulhu)
+  - file: twdu-no-anchors.json
+    version: 1.1.0
+    author: Michael Card (EmoCthulhu)
+
+vtm5e:
+  - file: vtm5e-en.json
+    version: 1.1.0
+    author: Arboreal
+  - file: vtm5e-ptbr.json
+    version: 1.1.0
+    author: Arboreal
+
+vaesen:
+  - file: vaesen.json
+    version: 1.1.0
+    author: Michael Card (EmoCthulhu)
+
+yzecoriolis:
+  - file: coriolis.json
+    version: 1.1.0
+    author: Michael Card (EmoCthulhu)
+  - file: coriolis-compact.json
+    version: 1.1.0
+    author: Michael Card (EmoCthulhu)
+
+mosh:
+  - file: mothership.json
+    version: 1.0.0
+    author: Eddie Dover
+
+daggerheart:
+  - file: daggerheart_dover.json
+    version: 1.0.0
+    author: Eddie Dover
+
+dc20rpg:
+  - file: dc20.json
+    version: 1.0.0
+    author: Eddie Dover
