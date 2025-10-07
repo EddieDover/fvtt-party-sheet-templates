@@ -23,11 +23,12 @@
 
 ## Overview & Installation
 
-Examples can be found in the [example_templates](https://github.com/EddieDover/fvtt-party-sheet/tree/main/example_templates) folder. Several systems other than 5e have been made, and are in the [example_templates] folder in native Foundry. If using the Forge, install the module on your local Foundry installation to have access to the [example_templates] folder, and to upload any you would like to use to your Assets Library in the `<partysheets>` folder at the top level. Or, if you haven't installed Foundry and only used the license key on The Forge, use the GitHub link above. In this case, you will have to download the file to your computer, then upload it to The Forge. If you create a template, please submit it via email or GitHub, and we will include it in future updates with full credit.
+This repository contains community submitted templates for the [fvtt-party-sheet](https://www.github.com/eddiedover/fvtt-party-sheet) module.
 
-**Installation Locations:**
+### Installation Locations:
+- **Foundry or Forge**: Use the built in Installer by locating the button at the top of the Template Window.
 - **Native Foundry:** Place your templates in the `<FOUNDRY_VTT/Data/partysheets/>` folder.
-- **The Forge:** This module will create a folder at the top level of your Assets Library named `partysheets`. Place your templates in this folder.
+- **The Forge:** The Party SHeet module will create a folder at the top level of your Assets Library named `partysheets`. Place your templates in this folder.
 
 ## Template Structure
 
@@ -52,12 +53,13 @@ Examples can be found in the [example_templates](https://github.com/EddieDover/f
 - **author** - The author or creator of this template
 - **version** - Template version using semantic versioning (e.g., "1.0.0", "1.2.1")
 - **minimumSystemVersion** - Minimum version of the game system required. Use the system's versioning format: MAJOR.MINOR (e.g., "2.4") or MAJOR.MINOR.PATCH (e.g., "1.0.12")
-- **maximumSystemVersion** - (Optional) Maximum version of the game system that this template supports. When specified, templates will only be shown when the current system version is within the range.
 - **rows** - Array of template row data (see Row Configuration section)
 
 ### Optional Properties
 
 The following properties are also available at the top level of the template structure.
+
+- **maximumSystemVersion** - (Optional) Maximum version of the game system that this template supports. When specified, templates will only be shown when the current system version is within the range of this and the **minimumSystemVersion**.
 
 **offline_excludes_property** - (string, default: `"actor.type"`) - Property path to check for exclusion. All overrides are treated as if their parent object is the character.
 
