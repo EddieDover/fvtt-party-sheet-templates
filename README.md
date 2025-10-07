@@ -411,9 +411,9 @@ Use `||` to separate multiple object loops. Each can have its own prefix text an
 
 The object-loop processor allows you to loop through non-array objects, and sometimes in doing so you may find the need to access the key of said object. Consider the following example where the abilities names are not listed inside of the ability objects.
 
-```json
+```javascript
 system.abilities = {
-  "parkor": {
+  "parkour": {
     "value": "5",
     "max": "10",
   },
@@ -437,7 +437,7 @@ You are able to access the 'key' of the object using the keyword **objectLoopKey
 
 This would result in:
 
-    Parkor - 5/10
+    Parkour - 5/10
     Dancing - 1/10
 
 **Dropdown Option:**
