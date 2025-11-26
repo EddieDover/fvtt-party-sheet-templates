@@ -156,6 +156,7 @@ Each column requires these basic properties:
 - **headerAlign** - Horizontal alignment for the header text: "left", "center", "right"
 - **minwidth** - Minimum column width in pixels (number, no quotes): `"minwidth": 100`
 - **maxwidth** - Maximum column width in pixels (number, no quotes): `"maxwidth": 200`
+- **maxheight** - Maximum height of the list in pixels (number, no quotes). If content exceeds this, a scrollbar appears: `"maxheight": 200`
 - **showSign** - (direct/direct-complex only) Show "+" for positive numbers: `"showSign": true`
 - **showTotal** - Show column total in footer (numeric values only): `"showTotal": true`
 - **colspan** - Span across multiple columns: `"colspan": 2`
@@ -170,7 +171,8 @@ Each column requires these basic properties:
   "align": "center",
   "showSign": true,
   "minwidth": 50,
-  "maxwidth": 100
+  "maxwidth": 100,
+  "maxheight": 100
 }
 ```
 
@@ -407,6 +409,18 @@ This filters the stats object to only show items where `rollLabel` contains the 
 
 Use `||` to separate multiple object loops. Each can have its own prefix text and filter criteria.
 
+**Filtering Operators:**
+
+You can use `&&` (AND) and `||` (OR) operators within your filters to create complex conditions.
+
+```json
+"text": "items{type == 'spell' && system.level > 0} => {name}"
+```
+
+```json
+"text": "items{type == 'weapon' || type == 'equipment'} => {name}"
+```
+
 **Sub-Object Loops:**
 
 The object-loop processor allows you to loop through non-array objects, and sometimes in doing so you may find the need to access the key of said object. Consider the following example where the abilities names are not listed inside of the ability objects.
@@ -441,22 +455,25 @@ This would result in:
     Dancing - 1/10
 
 **Dropdown Option:**
-Prefix with `{dropdown}` to create a dropdown selector for viewing different sections:
+Prefix the entire text string with `{dropdown}` to create a dropdown selector for viewing different sections. The label for each dropdown option is taken from the prefix of that section.
+
 ```json
-"text": "{dropdown} {u}Talents:{/u}{nl} items{talent} => {name} {nl} || {u}Weapons:{/u}{nl} items{weapon} => {name} {nl}"
+"text": "{dropdown} [Talents] items{talent} => {name} {nl} || [Weapons] items{weapon} => {name} {nl}"
 ```
 
 **Prefix Text:**
 
-You can add prefix text to each loop section by wrapping it in brackets:
+You can add prefix text to each loop section. This is used as the label for the section (or the dropdown option name). You can wrap it in brackets `[Label]` or simply separate it with a space `Label object`.
 
 ```json
 "text": "[Weapons] items{weapon} => {name}{nl}"
 ```
+OR
+```json
+"text": "Weapons items{weapon} => {name}{nl}"
+```
 
-This will display "Weapons" before the looped items.
-
-**Syntax:** `[Prefix] objectname{filter} => {property}` where properties are automatically processed with brace notation.
+**Syntax:** `[Prefix] objectname{filter} => {property}` OR `Prefix objectname{filter} => {property}`.
 
 **Nested Loops:**
 
