@@ -6,7 +6,7 @@ Please unfold any entry to see a screenshot.
 
 <details>
 
-![DnD5e Screenshot](https://raw.githubusercontent.com/EddieDover/fvtt-party-sheet/main/example_templates/dnd5e/dnd5e_template.jpg)
+![DnD5e Screenshot](https://github.com/EddieDover/fvtt-party-sheet-templates/blob/master/templates/dnd5e/dnd5e_template.jpg)
 
   <summary>
   dnd5e_template.json (Eddie Dover)
@@ -15,13 +15,13 @@ Please unfold any entry to see a screenshot.
 
 <details>
 
-![DnD5e Modified Screenshot](https://raw.githubusercontent.com/EddieDover/fvtt-party-sheet/main/example_templates/dnd5e/dnd5e_modified.jpg)
+![DnD5e Modified Screenshot](https://github.com/EddieDover/fvtt-party-sheet-templates/blob/master/templates/dnd5e/dnd5e_modified.jpg)
 
 <summary>dnd5e_modified.json - Michael Card (Emo Cthulhu)</summary></details>
 
 <details>
 
-![DnD5e Template Feature Showcase](https://raw.githubusercontent.com/EddieDover/fvtt-party-sheet/main/example_templates/dnd5e/dnd5e_showcase.jpg)
+![DnD5e Template Feature Showcase](https://github.com/EddieDover/fvtt-party-sheet-templates/blob/master/templates/dnd5e/dnd5e_showcase.jpg)
 
 <summary>
 dnd5e_showcase.json (Eddie Dover)
@@ -32,7 +32,7 @@ dnd5e_showcase.json (Eddie Dover)
 
 <details>
 
-![Alien RPG Screenshot](https://raw.githubusercontent.com/EddieDover/fvtt-party-sheet/main/example_templates/alienrpg/alienrpg.jpg)
+![Alien RPG Screenshot](https://github.com/EddieDover/fvtt-party-sheet-templates/blob/master/templates/alienrpg/alienrpg.jpg)
 
 <summary>
 alienrpg.json - Michael Card (Emo Cthulhu)</summary>
@@ -42,13 +42,13 @@ alienrpg.json - Michael Card (Emo Cthulhu)</summary>
 
 <details>
 
-![Blade Runner Basic Screenshot](https://raw.githubusercontent.com/EddieDover/fvtt-party-sheet/main/example_templates/blade-runner/blade-runner-basic.jpg)
+![Blade Runner Basic Screenshot](https://github.com/EddieDover/fvtt-party-sheet-templates/blob/master/templates/blade-runner/blade-runner-basic.jpg)
 
 <summary>blade-runner-basic.json - Michael Card (Emo Cthulhu)</summary></details>
 
 <details>
 
-![Blade Runner Expanded Screenshot](https://raw.githubusercontent.com/EddieDover/fvtt-party-sheet/main/example_templates/blade-runner/blade-runner-expanded.jpg)
+![Blade Runner Expanded Screenshot](https://github.com/EddieDover/fvtt-party-sheet-templates/blob/master/templates/blade-runner/blade-runner-expanded.jpg)
 
 <summary>blade-runner-expanded.json - Michael Card (Emo Cthulhu)</summary></details>
 
@@ -56,7 +56,7 @@ alienrpg.json - Michael Card (Emo Cthulhu)</summary>
 
 <details>
 
-![CnC](https://raw.githubusercontent.com/EddieDover/fvtt-party-sheet/main/example_templates/castles-and-crusades/cac_phildo.jpg)
+![CnC](https://github.com/EddieDover/fvtt-party-sheet-templates/blob/master/templates/castles-and-crusades/cac_phildo.jpg)
 <summary>cnc_phildo.json - PhildoBaggins</summary>
 
 </details>
@@ -65,13 +65,13 @@ alienrpg.json - Michael Card (Emo Cthulhu)</summary>
 
 <details>
 
-![Coriolis Full Screenshot](https://raw.githubusercontent.com/EddieDover/fvtt-party-sheet/main/example_templates/yzecoriolis/coriolis.jpg)
+![Coriolis Full Screenshot](https://github.com/EddieDover/fvtt-party-sheet-templates/blob/master/templates/yzecoriolis/coriolis.jpg)
 
 <summary>coriolis.json - Michael Card (Emo Cthulhu)</summary></details>
 
 <details>
 
-![Coriolis Compact Screeshot](https://raw.githubusercontent.com/EddieDover/fvtt-party-sheet/main/example_templates/yzecoriolis/coriolis-compact.jpg)
+![Coriolis Compact Screeshot](https://github.com/EddieDover/fvtt-party-sheet-templates/blob/master/templates/yzecoriolis/coriolis-compact.jpg)
 
 <summary>coriolis-compact.json - Michael Card (Emo Cthulhu)</summary></details>
 
@@ -79,13 +79,13 @@ alienrpg.json - Michael Card (Emo Cthulhu)</summary>
 
 <details>
 
-![Cyberpunk RED Minimal Screeshot](https://raw.githubusercontent.com/EddieDover/fvtt-party-sheet/main/example_templates/cyberpunk-red-core/cyberpunk-RED-v1.jpg)
+![Cyberpunk RED Minimal Screeshot](https://github.com/EddieDover/fvtt-party-sheet-templates/blob/master/templates/cyberpunk-red-core/cyberpunk-RED-v1.jpg)
 
 <summary>cyberpunk-red-v1.json - Michael Card (Emo Cthulhu)</summary></details>
 
 <details>
 
-![Cyberpunk RED v2 Screeshot](https://raw.githubusercontent.com/EddieDover/fvtt-party-sheet/main/example_templates/cyberpunk-red-core/cyberpunk-RED-v2.jpg)
+![Cyberpunk RED v2 Screeshot](https://github.com/EddieDover/fvtt-party-sheet-templates/blob/master/templates/cyberpunk-red-core/cyberpunk-RED-v2.jpg)
 
 <summary>cyberpunk-red-v2.json - Michael Card (Emo Cthulhu)</summary></details>
 
@@ -93,7 +93,7 @@ alienrpg.json - Michael Card (Emo Cthulhu)</summary>
 
 <details>
 
-![Daggerheart by Gensokian](https://raw.githubusercontent.com/EddieDover/fvtt-party-sheet/main/example_templates/daggerheart/daggerheart_gensokian.jpg)
+![Daggerheart by Gensokian](https://github.com/EddieDover/fvtt-party-sheet-templates/blob/master/templates/daggerheart/daggerheart_gensokian.jpg)
 
 <summary>
 daggerheart_gensokian.json - James / Gensokian</summary>
@@ -103,7 +103,7 @@ daggerheart_gensokian.json - James / Gensokian</summary>
 
 <details>
 
-![Dragonbane Screenshot](https://raw.githubusercontent.com/EddieDover/fvtt-party-sheet/main/example_templates/dragonbane/dragonbane-name.jpg)
+![Dragonbane Screenshot](https://github.com/EddieDover/fvtt-party-sheet-templates/blob/master/templates/dragonbane/dragonbane-name.jpg)
 
 <summary>dragonbane-name.json - Michael Card (Emo Cthulhu)</summary></details>
 
@@ -111,19 +111,19 @@ daggerheart_gensokian.json - James / Gensokian</summary>
 
 <details>
 
-![Fallout 2d20 Screenshot](https://raw.githubusercontent.com/EddieDover/fvtt-party-sheet/main/example_templates/fallout/fallout-move.jpg)
+![Fallout 2d20 Screenshot](https://github.com/EddieDover/fvtt-party-sheet-templates/blob/master/templates/fallout/fallout-move.jpg)
 
 <summary>fallout-move.json - Michael Card (Emo Cthulhu)</summary></details>
 
 <details>
 
-![Fallout 2d20 Trimmed Screeshot](https://raw.githubusercontent.com/EddieDover/fvtt-party-sheet/main/example_templates/fallout/fallout-trimmed-move.jpg)
+![Fallout 2d20 Trimmed Screeshot](https://github.com/EddieDover/fvtt-party-sheet-templates/blob/master/templates/fallout/fallout-trimmed-move.jpg)
 
 <summary>fallout-trimmed-move.json - Michael Card (Emo Cthulhu)</summary></details>
 
 <details>
 
-![Fallout 2d20 v2 Screenshot](https://raw.githubusercontent.com/EddieDover/fvtt-party-sheet/main/example_templates/fallout/fallout-v2.jpg)
+![Fallout 2d20 v2 Screenshot](https://github.com/EddieDover/fvtt-party-sheet-templates/blob/master/templates/fallout/fallout-v2.jpg)
 
 <summary>fallout-v2.json - Michael Card (Emo Cthulhu)</summary></details>
 
@@ -131,7 +131,7 @@ daggerheart_gensokian.json - James / Gensokian</summary>
 
 <details>
 
-![Pathfinder 1e Condensed](https://raw.githubusercontent.com/EddieDover/fvtt-party-sheet/main/example_templates/pf1/pf1-condensed.png)
+![Pathfinder 1e Condensed](https://github.com/EddieDover/fvtt-party-sheet-templates/blob/master/templates/pf1/pf1-condensed.png)
 
 <summary>pf1-condensed.json - Rexinath</summary>
 
@@ -139,7 +139,7 @@ daggerheart_gensokian.json - James / Gensokian</summary>
 
 <details>
 
-![Pathfinder 1e Screenshot](https://raw.githubusercontent.com/EddieDover/fvtt-party-sheet/main/example_templates/pf1/pf1-template.png)
+![Pathfinder 1e Screenshot](https://github.com/EddieDover/fvtt-party-sheet-templates/blob/master/templates/pf1/pf1-template.png)
 
 <summary>pf1-template.json - LeCuay (Chechu)</summary>
 
@@ -149,13 +149,13 @@ daggerheart_gensokian.json - James / Gensokian</summary>
 
 <details>
 
-![Starfinder Screenshot](https://raw.githubusercontent.com/EddieDover/fvtt-party-sheet/main/example_templates/sfrpg/starfinder.jpg)
+![Starfinder Screenshot](https://github.com/EddieDover/fvtt-party-sheet-templates/blob/master/templates/sfrpg/starfinder.jpg)
 
 <summary>starfinder.json - Michael Card (Emo Cthulhu)</summary></details>
 
 <details>
 
-![Starfinder with Statuses Screenshot](https://raw.githubusercontent.com/EddieDover/fvtt-party-sheet/main/example_templates/sfrpg/starfinder-statuses.jpg)
+![Starfinder with Statuses Screenshot](https://github.com/EddieDover/fvtt-party-sheet-templates/blob/master/templates/sfrpg/starfinder-statuses.jpg)
 
 <summary>starfinder-statuses.json - Michael Card (Emo Cthulhu)</summary></details>
 
@@ -163,7 +163,7 @@ daggerheart_gensokian.json - James / Gensokian</summary>
 
 <details>
 
-![SWADE Screenshot](https://raw.githubusercontent.com/EddieDover/fvtt-party-sheet/main/example_templates/swade/swade.jpg)
+![SWADE Screenshot](https://github.com/EddieDover/fvtt-party-sheet-templates/blob/master/templates/swade/swade.jpg)
 
 <summary>swade.json - Mestre Digital</summary></details>
 
@@ -171,25 +171,25 @@ daggerheart_gensokian.json - James / Gensokian</summary>
 
 <details>
 
-![Star Trek Adventures v1 Screenshot](https://raw.githubusercontent.com/EddieDover/fvtt-party-sheet/main/example_templates/sta/sta-v1.jpg)
+![Star Trek Adventures v1 Screenshot](https://github.com/EddieDover/fvtt-party-sheet-templates/blob/master/templates/sta/sta-v1.jpg)
 
 <summary>sta-v1.json - Michael Card (Emo Cthulhu)</summary></details>
 
 <details>
 
-![Star Trek Adventures v1 Screenshot](https://raw.githubusercontent.com/EddieDover/fvtt-party-sheet/main/example_templates/sta/sta-v1.jpg)
+![Star Trek Adventures v1 Screenshot](https://github.com/EddieDover/fvtt-party-sheet-templates/blob/master/templates/sta/sta-v1.jpg)
 
 <summary>sta-v1.json - Michael Card (Emo Cthulhu)</summary></details>
 
 <details>
 
-![Star Trek Adventures v2 Screenshot](https://raw.githubusercontent.com/EddieDover/fvtt-party-sheet/main/example_templates/sta/sta-v2.jpg)
+![Star Trek Adventures v2 Screenshot](https://github.com/EddieDover/fvtt-party-sheet-templates/blob/master/templates/sta/sta-v2.jpg)
 
 <summary>sta-v2.json - Michael Card (Emo Cthulhu)</summary></details>
 
 <details>
 
-![Star Trek Adventures v2 Ship Sheet Screenshot](https://raw.githubusercontent.com/EddieDover/fvtt-party-sheet/main/example_templates/sta/sta-ship-v2.jpg)
+![Star Trek Adventures v2 Ship Sheet Screenshot](https://github.com/EddieDover/fvtt-party-sheet-templates/blob/master/templates/sta/sta-ship-v2.jpg)
 
 <summary>sta-ship-v2.json - Michael Card (Emo Cthulhu)</summary></details>
 
@@ -197,19 +197,19 @@ daggerheart_gensokian.json - James / Gensokian</summary>
 
 <details>
 
-![TWDU with Anchors Screenshot](https://raw.githubusercontent.com/EddieDover/fvtt-party-sheet/main/example_templates/twdu/twdu-anchors.jpg)
+![TWDU with Anchors Screenshot](https://github.com/EddieDover/fvtt-party-sheet-templates/blob/master/templates/twdu/twdu-anchors.jpg)
 
 <summary>twdu-anchors.json - Michael Card (Emo Cthulhu)</summary></details>
 
 <details>
 
-![TWDU without Anchors Screenshot](https://raw.githubusercontent.com/EddieDover/fvtt-party-sheet/main/example_templates/twdu/twdu-no-anchors.jpg)
+![TWDU without Anchors Screenshot](https://github.com/EddieDover/fvtt-party-sheet-templates/blob/master/templates/twdu/twdu-no-anchors.jpg)
 
 <summary>twdu-no-anchors.json - Michael Card (Emo Cthulhu)</summary></details>
 
 <details>
 
-![TWDU Two Rows Screenshot](https://raw.githubusercontent.com/EddieDover/fvtt-party-sheet/main/example_templates/twdu/twdu-two-rows.jpg)
+![TWDU Two Rows Screenshot](https://github.com/EddieDover/fvtt-party-sheet-templates/blob/master/templates/twdu/twdu-two-rows.jpg)
 
 <summary>twdu-two-rows.json - Michael Card (Emo Cthulhu)</summary></details>
 
@@ -217,7 +217,7 @@ daggerheart_gensokian.json - James / Gensokian</summary>
 
 <details>
 
-![Vaesen Screenshot](https://raw.githubusercontent.com/EddieDover/fvtt-party-sheet/main/example_templates/vaesen/vaesen.jpg)
+![Vaesen Screenshot](https://github.com/EddieDover/fvtt-party-sheet-templates/blob/master/templates/vaesen/vaesen.jpg)
 
 <summary>vaesen.json - Michael Card (Emo Cthulhu)</summary></details>
 
@@ -225,12 +225,12 @@ daggerheart_gensokian.json - James / Gensokian</summary>
 
 <details>
 
-![World Of Darkness - ptbr Screenshot](https://raw.githubusercontent.com/EddieDover/fvtt-party-sheet/main/example_templates/vtm5e/vtm5e-ptbr.jpg)
+![World Of Darkness - ptbr Screenshot](https://github.com/EddieDover/fvtt-party-sheet-templates/blob/master/templates/vtm5e/vtm5e-ptbr.jpg)
 
 <summary>vtm5e-ptbr.json - pmenezesdev (Justicares)</summary></details>
 
 <details>
 
-![World of Darkness - en Screenshot](https://raw.githubusercontent.com/EddieDover/fvtt-party-sheet/main/example_templates/vtm5e/vtm5e-en.jpg)
+![World of Darkness - en Screenshot](https://github.com/EddieDover/fvtt-party-sheet-templates/blob/master/templates/vtm5e/vtm5e-en.jpg)
 
 <summary>vtm5e-en.json - pmenezesdev (Justicares)</summary></details>
