@@ -445,7 +445,7 @@ You are able to access the 'key' of the object using the keyword **objectLoopKey
   "name": "Abilities",
   "type": "object-loop",
   "header": "show",
-  "text": "system.abilities => {objectKeyLoop} - {value} / {max}{nl}"
+  "text": "system.abilities => {objectLoopKey} - {value} / {max}{nl}"
 }
 ```
 
