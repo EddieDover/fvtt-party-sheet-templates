@@ -2,32 +2,6 @@
 
 Please unfold any entry to see a screenshot.
 
-## DnD5e "dnd5e"
-
-<details>
-
-![DnD5e Screenshot](https://github.com/EddieDover/fvtt-party-sheet-templates/blob/master/templates/dnd5e/dnd5e_template.jpg)
-
-  <summary>
-  dnd5e_template.json (Eddie Dover)
-  </summary>
-</details>
-
-<details>
-
-![DnD5e Modified Screenshot](https://github.com/EddieDover/fvtt-party-sheet-templates/blob/master/templates/dnd5e/dnd5e_modified.jpg)
-
-<summary>dnd5e_modified.json - Michael Card (Emo Cthulhu)</summary></details>
-
-<details>
-
-![DnD5e Template Feature Showcase](https://github.com/EddieDover/fvtt-party-sheet-templates/blob/master/templates/dnd5e/dnd5e_showcase.jpg)
-
-<summary>
-dnd5e_showcase.json (Eddie Dover)
-</summary>
-</details>
-
 ## Alien RPG "alienrpg"
 
 <details>
@@ -52,13 +26,22 @@ alienrpg.json - Michael Card (Emo Cthulhu)</summary>
 
 <summary>blade-runner-expanded.json - Michael Card (Emo Cthulhu)</summary></details>
 
-## Castles and Crusades
+## Castles and Crusades "castles-and-crusades"
 
 <details>
 
 ![CnC](https://github.com/EddieDover/fvtt-party-sheet-templates/blob/master/templates/castles-and-crusades/cac_phildo.jpg)
 <summary>cnc_phildo.json - PhildoBaggins</summary>
 
+</details>
+
+## Chronicles of Darkness (2E) "mta"
+
+<details>
+  
+![Orlok's Template](https://github.com/EddieDover/fvtt-party-sheet-templates/blob/master/templates/mta/mta-orlok.jpg)
+
+<summary>mta-orlok.json (Orlok)</summary>
 </details>
 
 ## Coriolis "yzecoriolis"
@@ -106,6 +89,33 @@ daggerheart_gensokian.json - James / Gensokian</summary>
 ![Dragonbane Screenshot](https://github.com/EddieDover/fvtt-party-sheet-templates/blob/master/templates/dragonbane/dragonbane-name.jpg)
 
 <summary>dragonbane-name.json - Michael Card (Emo Cthulhu)</summary></details>
+
+
+## DnD5e "dnd5e"
+
+<details>
+
+![DnD5e Screenshot](https://github.com/EddieDover/fvtt-party-sheet-templates/blob/master/templates/dnd5e/dnd5e_template.jpg)
+
+  <summary>
+  dnd5e_template.json (Eddie Dover)
+  </summary>
+</details>
+
+<details>
+
+![DnD5e Modified Screenshot](https://github.com/EddieDover/fvtt-party-sheet-templates/blob/master/templates/dnd5e/dnd5e_modified.jpg)
+
+<summary>dnd5e_modified.json - Michael Card (Emo Cthulhu)</summary></details>
+
+<details>
+
+![DnD5e Template Feature Showcase](https://github.com/EddieDover/fvtt-party-sheet-templates/blob/master/templates/dnd5e/dnd5e_showcase.jpg)
+
+<summary>
+dnd5e_showcase.json (Eddie Dover)
+</summary>
+</details>
 
 ## Fallout 2d20 "fallout"
 
