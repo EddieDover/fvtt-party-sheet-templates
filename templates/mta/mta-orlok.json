@@ -1,0 +1,166 @@
+{
+"name": "CoD 2e (MtA)",
+"system": "mta",
+"author": "Orlok",
+"version": "1.0.0",
+"minimumSystemVersion": "0.17.1",
+"maximumSystemVersion": "0.18.0",
+"rows": [
+[
+{
+"name": "Character Sheet",
+"type": "charactersheet",
+"align": "center",
+"header": "hide",
+"text": ""
+},
+{
+"name": "Name",
+"type": "direct",
+"align": "left",
+"header": "hide",
+"text": "{name}"
+},
+{
+"name": "WP",
+"type": "direct",
+"align": "center",
+"header": "show",
+"text": "{system.willpower.value}"
+},
+{
+"name": "Mana",
+"type": "direct",
+"align": "center",
+"header": "show",
+"text": "{system.mana.value}"
+},
+{
+"name": "Speed",
+"type": "direct",
+"align": "center",
+"header": "show",
+"text": "{system.derivedTraits.speed.final}"
+},
+{
+"name": "DEF",
+"type": "direct",
+"align": "center",
+"header": "show",
+"text": "{system.derivedTraits.defense}"
+},
+{
+"name": "RES",
+"type": "direct",
+"align": "center",
+"header": "show",
+"text": "{system.attributes_mental.resolve.value}"
+},
+{
+"name": "STA",
+"type": "direct",
+"align": "center",
+"header": "show",
+"text": "{system.attributes_physical.stamina.value}"
+},
+{
+"name": "COM",
+"type": "direct",
+"align": "center",
+"header": "show",
+"text": "{system.attributes_social.composure.value}"
+},
+{
+"name": "Speed",
+"type": "direct",
+"align": "center",
+"header": "show",
+"text": "{system.derivedTraits.speed.final}"
+},
+{
+"name": "Death",
+"type": "direct",
+"align": "center",
+"header": "show",
+"text": "{system.arcana_subtle.death.value}"
+},
+{
+"name": "Fate",
+"type": "direct",
+"align": "center",
+"header": "show",
+"text": "{system.arcana_subtle.fate.value}"
+},
+{
+"name": "Forces",
+"type": "direct",
+"align": "center",
+"header": "show",
+"text": "{system.arcana_gross.forces.value}"
+},
+{
+"name": "Life",
+"type": "direct",
+"align": "center",
+"header": "show",
+"text": "{system.arcana_gross.life.value}"
+},
+{
+"name": "Matter",
+"type": "direct",
+"align": "center",
+"header": "show",
+"text": "{system.arcana_gross.matter.value}"
+},
+{
+"name": "Mind",
+"type": "direct",
+"align": "center",
+"header": "show",
+"text": "{system.arcana_subtle.mind.value}"
+},
+{
+"name": "Prime",
+"type": "direct",
+"align": "center",
+"header": "show",
+"text": "{system.arcana_subtle.prime.value}"
+},
+{
+"name": "Space",
+"type": "direct",
+"align": "center",
+"header": "show",
+"text": "{system.arcana_gross.space.value}"
+},
+{
+"name": "Spirit",
+"type": "direct",
+"align": "center",
+"header": "show",
+"text": "{system.arcana_subtle.spirit.value}"
+},
+{
+"name": "Time",
+"type": "direct",
+"align": "center",
+"header": "show",
+"text": "{system.arcana_gross.time.value}"
+},
+{
+"name": "Virtue",
+"type": "direct",
+"align": "center",
+"header": "show",
+"text": "{system.virtue}"
+},
+{
+"name": "Vice",
+"type": "direct",
+"align": "center",
+"header": "show",
+"text": "{system.vice}"
+}
+]
+]
+}
