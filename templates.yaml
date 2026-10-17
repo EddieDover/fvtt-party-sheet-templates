@@ -24,6 +24,11 @@ cyberpunk-red-core:
     version: 1.1.0
     author: Michael Card (EmoCthulhu)
 
+cypherv2:
+  - file: cypherv2.json
+    version: 1.0.0
+    author: Peter Tyrrell
+
 dnd5e:
   - file: dnd5e_modified.json
     version: 1.1.0
