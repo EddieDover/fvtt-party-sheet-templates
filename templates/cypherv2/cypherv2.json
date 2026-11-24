@@ -1,0 +1,202 @@
+{
+  "name": "Cypher System 2",
+  "system": "cypherv2",
+  "author": "Peter Tyrrell",
+  "version": "1.0.0",
+  "minimumSystemVersion": "0.1.0",
+  "offline_excludes_property": "type",
+  "offline_excludes": [
+    "npc"
+  ],
+  "rows": [
+    [
+      {
+        "name": "Character Sheet",
+        "type": "charactersheet",
+        "header": "hide",
+        "text": "",
+        "minwidth": 40,
+        "maxwidth": 40
+      },
+      {
+        "name": "Character",
+        "type": "direct-complex",
+        "header": "show",
+        "minwidth": 170,
+        "text": [
+          {
+            "type": "exists",
+            "value": "system.derived.packages.characterSentence",
+            "text": "{b}{name}{/b}{nl}{i}{system.derived.packages.characterSentence}{/i}",
+            "else": "{b}{name}{/b}{nl}{i}{system.derived.packages.speciesNames}{s}{system.derived.packages.typeNames}{/i}"
+          }
+        ]
+      },
+      {
+        "name": "Tier / Effort",
+        "type": "direct",
+        "header": "show",
+        "text": "{system.tier}{s2}/{s2}{system.derived.effort.max}",
+        "align": "center",
+        "maxwidth": 60
+      },
+      {
+        "name": "Might",
+        "type": "direct-complex",
+        "header": "show",
+        "align": "center",
+        "maxwidth": 70,
+        "text": [
+          {
+            "type": "match",
+            "ifdata": "system.stats.might.edge",
+            "matches": 0,
+            "text": "{system.stats.might.value}{s2}/{s2}{system.stats.might.max}",
+            "else": "{system.stats.might.value}{s2}/{s2}{system.stats.might.max}{nl}{i}Edge {system.stats.might.edge}{/i}"
+          }
+        ]
+      },
+      {
+        "name": "Speed",
+        "type": "direct-complex",
+        "header": "show",
+        "align": "center",
+        "maxwidth": 70,
+        "text": [
+          {
+            "type": "match",
+            "ifdata": "system.stats.speed.edge",
+            "matches": 0,
+            "text": "{system.stats.speed.value}{s2}/{s2}{system.stats.speed.max}",
+            "else": "{system.stats.speed.value}{s2}/{s2}{system.stats.speed.max}{nl}{i}Edge {system.stats.speed.edge}{/i}"
+          }
+        ]
+      },
+      {
+        "name": "Intellect",
+        "type": "direct-complex",
+        "header": "show",
+        "align": "center",
+        "maxwidth": 70,
+        "text": [
+          {
+            "type": "match",
+            "ifdata": "system.stats.intellect.edge",
+            "matches": 0,
+            "text": "{system.stats.intellect.value}{s2}/{s2}{system.stats.intellect.max}",
+            "else": "{system.stats.intellect.value}{s2}/{s2}{system.stats.intellect.max}{nl}{i}Edge {system.stats.intellect.edge}{/i}"
+          }
+        ]
+      },
+      {
+        "name": "Wounds min/mod/maj",
+        "type": "direct",
+        "header": "show",
+        "align": "center",
+        "text": "{system.wounds.minor.length}{s2}/{s2}{system.derived.wounds.capacities.minor}{s3}{system.wounds.moderate.length}{s2}/{s2}{system.derived.wounds.capacities.moderate}{s3}{system.wounds.major.length}{s2}/{s2}{system.derived.wounds.capacities.major}"
+      },
+      {
+        "name": "Hindered / Dead",
+        "type": "direct-complex",
+        "header": "show",
+        "align": "center",
+        "maxwidth": 80,
+        "text": [
+          {
+            "type": "exists",
+            "value": "system.derived.wounds.dead",
+            "text": "{c:#C00000}{b}DEAD{/b}{/c}{nl}"
+          },
+          {
+            "type": "match",
+            "ifdata": "system.derived.wounds.hindrance",
+            "matches": 0,
+            "text": "",
+            "else": "{b}{system.derived.wounds.hindrance}{/b} {i}step{/i}"
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "type": "direct-complex",
+        "header": "show",
+        "maxwidth": 110,
+        "text": [
+          {
+            "type": "match",
+            "ifdata": "system.derived.combat.armor.category",
+            "matches": "none",
+            "text": "{i}none{/i}",
+            "else": "{system.derived.combat.armor.category}"
+          },
+          {
+            "type": "match",
+            "ifdata": "system.derived.combat.armor.blockEase",
+            "matches": 0,
+            "text": "",
+            "else": "{nl}{i}block +{system.derived.combat.armor.blockEase}{/i}"
+          },
+          {
+            "type": "match",
+            "ifdata": "system.derived.combat.armor.dodgeHindrance",
+            "matches": 0,
+            "text": "",
+            "else": "{nl}{i}dodge {system.derived.combat.armor.dodgeHindrance}{/i}"
+          },
+          {
+            "type": "match",
+            "ifdata": "system.derived.combat.armor.speedTaskHindrance",
+            "matches": 0,
+            "text": "",
+            "else": "{nl}{i}speed {system.derived.combat.armor.speedTaskHindrance}{/i}"
+          }
+        ]
+      },
+      {
+        "name": "Recovery",
+        "type": "direct-complex",
+        "header": "show",
+        "maxwidth": 120,
+        "text": [
+          {
+            "type": "match",
+            "ifdata": "system.derived.recovery.availableTypes.length",
+            "matches": 0,
+            "text": "{system.derived.recovery.formula}{nl}{c:#C00000}{b}none left{/b}{/c}",
+            "else": "{system.derived.recovery.formula}{nl}{i}{system.derived.recovery.availableTypes.length} free{/i}"
+          }
+        ]
+      },
+      {
+        "name": "Cyphers",
+        "type": "object-loop",
+        "header": "show",
+        "maxwidth": 170,
+        "text": "_source.items{cypher} =>{name}{nl}"
+      },
+      {
+        "name": "Cypher Max",
+        "type": "direct",
+        "header": "show",
+        "align": "center",
+        "maxwidth": 55,
+        "text": "{system.derived.cypherLimit.max}"
+      },
+      {
+        "name": "Weapons",
+        "type": "object-loop",
+        "header": "show",
+        "maxwidth": 180,
+        "text": "_source.items{weapon} =>{name} ({system.category}){nl}"
+      },
+      {
+        "name": "XP / RP",
+        "type": "direct",
+        "header": "show",
+        "align": "center",
+        "maxwidth": 70,
+        "text": "{system.xp}{s2}/{s2}{system.resourcePoints}"
+      }
+    ]
+  ]
+}

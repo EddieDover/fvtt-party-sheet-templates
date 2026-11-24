@@ -68,6 +68,15 @@ Please unfold any entry to see a screenshot.
 
 </details>
 
+## Cypher System 2 "cypherv2"
+
+<details><summary>cypherv2.json - Peter Tyrrell</summary>
+
+![Cypher System 2 Screenshot](https://github.com/EddieDover/fvtt-party-sheet-templates/blob/master/templates/cypherv2/cypherv2.jpg)
+
+</details>
+
+
 ## Daggerheart "daggerheart"
 
 <details><summary>daggerheart_gensokian.json - James / Gensokian</summary>
