@@ -1,8 +1,8 @@
 {
   "name": "Cypher System 2",
   "system": "cypherv2",
-  "author": "Peter Tyrrell",
-  "version": "1.0.0",
+  "author": "peaeater",
+  "version": "2.0.0",
   "minimumSystemVersion": "0.1.0",
   "offline_excludes_property": "type",
   "offline_excludes": [
@@ -22,7 +22,6 @@
         "name": "Character",
         "type": "direct-complex",
         "header": "show",
-        "minwidth": 170,
         "text": [
           {
             "type": "exists",
@@ -33,100 +32,60 @@
         ]
       },
       {
-        "name": "Tier / Effort",
+        "name": "Might",
         "type": "direct",
         "header": "show",
-        "text": "{system.tier}{s2}/{s2}{system.derived.effort.max}",
         "align": "center",
-        "maxwidth": 60
-      },
-      {
-        "name": "Might",
-        "type": "direct-complex",
-        "header": "show",
-        "align": "center",
-        "maxwidth": 70,
-        "text": [
-          {
-            "type": "match",
-            "ifdata": "system.stats.might.edge",
-            "matches": 0,
-            "text": "{system.stats.might.value}{s2}/{s2}{system.stats.might.max}",
-            "else": "{system.stats.might.value}{s2}/{s2}{system.stats.might.max}{nl}{i}Edge {system.stats.might.edge}{/i}"
-          }
-        ]
+        "text": "{system.stats.might.value}{s2}/{s2}{system.stats.might.max}{nl}{i}Edge {system.stats.might.edge}{/i}{nl}{progress {system.stats.might.value} {system.stats.might.max} #71927B}"
       },
       {
         "name": "Speed",
-        "type": "direct-complex",
-        "header": "show",
-        "align": "center",
-        "maxwidth": 70,
-        "text": [
-          {
-            "type": "match",
-            "ifdata": "system.stats.speed.edge",
-            "matches": 0,
-            "text": "{system.stats.speed.value}{s2}/{s2}{system.stats.speed.max}",
-            "else": "{system.stats.speed.value}{s2}/{s2}{system.stats.speed.max}{nl}{i}Edge {system.stats.speed.edge}{/i}"
-          }
-        ]
-      },
-      {
-        "name": "Intellect",
-        "type": "direct-complex",
-        "header": "show",
-        "align": "center",
-        "maxwidth": 70,
-        "text": [
-          {
-            "type": "match",
-            "ifdata": "system.stats.intellect.edge",
-            "matches": 0,
-            "text": "{system.stats.intellect.value}{s2}/{s2}{system.stats.intellect.max}",
-            "else": "{system.stats.intellect.value}{s2}/{s2}{system.stats.intellect.max}{nl}{i}Edge {system.stats.intellect.edge}{/i}"
-          }
-        ]
-      },
-      {
-        "name": "Wounds min/mod/maj",
         "type": "direct",
         "header": "show",
         "align": "center",
-        "text": "{system.wounds.minor.length}{s2}/{s2}{system.derived.wounds.capacities.minor}{s3}{system.wounds.moderate.length}{s2}/{s2}{system.derived.wounds.capacities.moderate}{s3}{system.wounds.major.length}{s2}/{s2}{system.derived.wounds.capacities.major}"
+        "text": "{system.stats.speed.value}{s2}/{s2}{system.stats.speed.max}{nl}{i}Edge {system.stats.speed.edge}{/i}{nl}{progress {system.stats.speed.value} {system.stats.speed.max} #71927B}"
       },
       {
-        "name": "Hindered / Dead",
-        "type": "direct-complex",
+        "name": "Intellect",
+        "type": "direct",
         "header": "show",
         "align": "center",
-        "maxwidth": 80,
+        "text": "{system.stats.intellect.value}{s2}/{s2}{system.stats.intellect.max}{nl}{i}Edge {system.stats.intellect.edge}{/i}{nl}{progress {system.stats.intellect.value} {system.stats.intellect.max} #71927B}"
+      },
+      {
+        "name": "Wounds",
+        "type": "direct-complex",
+        "header": "show",
         "text": [
           {
             "type": "exists",
+            "value": "system.derived.wounds.capacities.minor",
+            "text": "{i}MIN{/i} {system.wounds.minor.length} / {system.derived.wounds.capacities.minor} · {i}MOD{/i} {system.wounds.moderate.length} / {system.derived.wounds.capacities.moderate} · {i}MAJ{/i} {system.wounds.major.length} / {system.derived.wounds.capacities.major}{nl}"
+          },
+          {
+            "type": "exists",
             "value": "system.derived.wounds.dead",
-            "text": "{c:#C00000}{b}DEAD{/b}{/c}{nl}"
+            "text": "{c:#D85B66}{b}DEAD{/b}{/c}{nl}"
           },
           {
             "type": "match",
             "ifdata": "system.derived.wounds.hindrance",
             "matches": 0,
             "text": "",
-            "else": "{b}{system.derived.wounds.hindrance}{/b} {i}step{/i}"
+            "else": "{c:#E1747D}{b}Hindered {system.derived.wounds.hindrance} step{/b}{/c}"
           }
         ]
       },
       {
-        "name": "Armor",
+        "name": "Defense",
         "type": "direct-complex",
         "header": "show",
-        "maxwidth": 110,
         "text": [
           {
             "type": "match",
             "ifdata": "system.derived.combat.armor.category",
             "matches": "none",
-            "text": "{i}none{/i}",
+            "text": "{i}No armor{/i}",
             "else": "{system.derived.combat.armor.category}"
           },
           {
@@ -134,21 +93,21 @@
             "ifdata": "system.derived.combat.armor.blockEase",
             "matches": 0,
             "text": "",
-            "else": "{nl}{i}block +{system.derived.combat.armor.blockEase}{/i}"
+            "else": "{nl}{i}Block +{system.derived.combat.armor.blockEase}{/i}"
           },
           {
             "type": "match",
             "ifdata": "system.derived.combat.armor.dodgeHindrance",
             "matches": 0,
             "text": "",
-            "else": "{nl}{i}dodge {system.derived.combat.armor.dodgeHindrance}{/i}"
+            "else": "{nl}{i}Dodge {system.derived.combat.armor.dodgeHindrance}{/i}"
           },
           {
             "type": "match",
             "ifdata": "system.derived.combat.armor.speedTaskHindrance",
             "matches": 0,
             "text": "",
-            "else": "{nl}{i}speed {system.derived.combat.armor.speedTaskHindrance}{/i}"
+            "else": "{nl}{i}Speed {system.derived.combat.armor.speedTaskHindrance}{/i}"
           }
         ]
       },
@@ -156,37 +115,38 @@
         "name": "Recovery",
         "type": "direct-complex",
         "header": "show",
-        "maxwidth": 120,
         "text": [
           {
             "type": "match",
             "ifdata": "system.derived.recovery.availableTypes.length",
             "matches": 0,
-            "text": "{system.derived.recovery.formula}{nl}{c:#C00000}{b}none left{/b}{/c}",
-            "else": "{system.derived.recovery.formula}{nl}{i}{system.derived.recovery.availableTypes.length} free{/i}"
+            "text": "{system.derived.recovery.formula}{nl}{c:#D85B66}{b}none left{/b}{/c}",
+            "else": "{system.derived.recovery.formula}{nl}{i}{system.derived.recovery.availableTypes.length} of {system.recovery.slots.length} available{/i}"
           }
         ]
+      },
+      {
+        "name": "Skills",
+        "type": "object-loop",
+        "header": "show",
+        "text": "{dropdown} [Trained+] _source.items{type == 'skill' && system.rank != 'untrained' && system.rank != 'inability'} =><div class=\"zin-skill-entry\">{b}{name}{/b} {i}({system.rank}){/i}</div>||[Untrained] _source.items{type == 'skill' && system.rank == 'untrained'} =><div class=\"zin-skill-entry\">{name} {i}({system.rank}){/i}</div>||[Inabilities] _source.items{type == 'skill' && system.rank == 'inability'} =><div class=\"zin-skill-entry\">{c:#D85B66}{name} ({system.rank}){/c}</div>"
       },
       {
         "name": "Cyphers",
         "type": "object-loop",
         "header": "show",
-        "maxwidth": 170,
         "text": "_source.items{cypher} =>{name}{nl}"
       },
       {
         "name": "Cypher Max",
         "type": "direct",
         "header": "show",
-        "align": "center",
-        "maxwidth": 55,
         "text": "{system.derived.cypherLimit.max}"
       },
       {
         "name": "Weapons",
         "type": "object-loop",
         "header": "show",
-        "maxwidth": 180,
         "text": "_source.items{weapon} =>{name} ({system.category}){nl}"
       },
       {
@@ -194,8 +154,7 @@
         "type": "direct",
         "header": "show",
         "align": "center",
-        "maxwidth": 70,
-        "text": "{system.xp}{s2}/{s2}{system.resourcePoints}"
+        "text": "{system.xp}{s2}/{s2}{system.resourcePoints}{nl}{i}Tier {system.tier} · Effort {system.derived.effort.max}{/i}"
       }
     ]
   ]

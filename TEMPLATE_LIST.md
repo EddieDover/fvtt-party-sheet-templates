@@ -70,7 +70,7 @@ Please unfold any entry to see a screenshot.
 
 ## Cypher System 2 "cypherv2"
 
-<details><summary>cypherv2.json - Peter Tyrrell</summary>
+<details><summary>cypherv2.json - peaeater</summary>
 
 ![Cypher System 2 Screenshot](https://github.com/EddieDover/fvtt-party-sheet-templates/blob/master/templates/cypherv2/cypherv2.jpg)
 
