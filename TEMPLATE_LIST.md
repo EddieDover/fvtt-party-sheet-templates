@@ -159,7 +159,7 @@ Please unfold any entry to see a screenshot.
 
 <details><summary>shadowdark.json - taikkuss</summary>
 
-![Shadowdark](https://github.com/EddieDover/fvtt-party-sheet-templates/blob/master/templates/shadowdark/shadowdark.png)
+![Shadowdark](https://github.com/EddieDover/fvtt-party-sheet-templates/blob/master/templates/shadowdark/shadowdark.jpg)
 
 </details>
 

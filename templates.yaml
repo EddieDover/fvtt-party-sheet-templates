@@ -77,6 +77,11 @@ sfrpg:
     version: 1.1.0
     author: Michael Card (EmoCthulhu)
 
+shadowdark:
+  - file: shadowdark.json
+    version: 1.0.0
+    author: taikkuus
+
 sta:
   - file: sta-v1.json
     version: 1.1.0
